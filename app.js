@@ -60,9 +60,6 @@ app.post('/questions', (request, response) => {
     }
 });
 
-app.get('/questions')
-
-
 app.listen(port, function () {
     console.log("Started on PORT " + port);
 })
